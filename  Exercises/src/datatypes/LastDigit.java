@@ -6,7 +6,7 @@ import java.util.Scanner;
     Дано натуральное число, выведите его последнюю цифру.
  */
 
-public class LlastDigit {
+public class LastDigit {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
