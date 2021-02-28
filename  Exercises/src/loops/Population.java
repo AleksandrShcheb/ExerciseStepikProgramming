@@ -23,13 +23,13 @@ public class Population {
         Scanner scanner = new Scanner(System.in);
 
         double m, p, n;
-        double answer =0;
+        double answer = 0;
         m = scanner.nextDouble();
         p = scanner.nextDouble();
         n = scanner.nextDouble();
-        for (int i = 1; i < n ; i++) {
-             answer = m * Math.pow(p/100+1,i);
-            System.out.println(answer);
+        for (int i = 0; i < n; i++) {
+            answer = m * Math.pow(p / 100 + 1, i);
+            System.out.println(i + 1 + " " + answer);
         }
     }
 }
