@@ -14,7 +14,7 @@ public class ReverseBinaryNumber {
         int n = scanner.nextInt();
 
         while (n > 0){
-            System.out.println(n%2);
+            System.out.print(n%2);
             n/=2;
         }
     }
